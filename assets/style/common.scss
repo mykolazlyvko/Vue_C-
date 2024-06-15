@@ -1,0 +1,129 @@
+$secondary-color: yellow;
+
+html {
+    background: #333333e6;
+}
+body {
+    font-family: $main-font;
+    position: relative;
+    z-index: -1;
+    background-color: #171818;
+
+    background-attachment: fixed;
+}
+main,
+#__nuxt {
+    position: relative;
+    z-index: -1;
+}
+
+.bg-lynk {
+    min-width: 180px;
+    background: linear-gradient(180deg, #121628 42.5%, #2c3458 100%);
+}
+.lynk-btn {
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 32px;
+    font-weight: 800;
+    padding: 12px 24px;
+    font-size: 14px;
+    background-color: $red;
+    color: #fff;
+
+    &:hover {
+        opacity: 0.7;
+    }
+    &:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+    }
+    @include md {
+        padding: 12px 32px;
+        font-size: 16px;
+    }
+}
+
+.lynk-layout {
+    min-width: 160px;
+    padding: 0px 10px;
+
+    @include xs {
+        padding: 0px 30px;
+    }
+    @include md {
+        padding: 0px 40px;
+    }
+    @include lg {
+        padding: 0px 70px;
+    }
+    @include xxl {
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+.lynk-btn-primary {
+    background-color: #d2eaa4;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lynk-secondary {
+    color: $secondary-color;
+}
+
+.font-antonio {
+    font-family: $title-font;
+}
+
+.lynk-text-red {
+    color: $red;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.text-primary {
+    color: #121628;
+}
+
+.text-secondary {
+    color: #d2eaa4;
+}
+.bg-secondary {
+    background-color: #d2eaa4;
+}
+
+.bg-primary {
+    background-color: #121628;
+}
+
+.font-title {
+    font-family: "Inter", sans-serif;
+}
+
+.font-subtitle {
+    font-family: "Open Sans", sans-serif;
+}
+.carousel__pagination-button:hover::after,
+.carousel__pagination-button::after {
+    width: 35px !important;
+    background-color: #2c3458 !important;
+}
+.carousel__pagination-button:hover::after,
+.carousel__pagination-button--active::after {
+    background-color: white !important;
+    width: 35px !important;
+}

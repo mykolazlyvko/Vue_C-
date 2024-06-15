@@ -1,0 +1,48 @@
+$breakpoint-xxl: 1536px;
+$breakpoint-xl: 1280px;
+$breakpoint-lg: 1024px;
+$breakpoint-md: 768px;
+$breakpoint-sm: 640px;
+$breakpoint-xs: 480px;
+
+// Extra Small devices
+@mixin xs {
+    @media (min-width: #{$breakpoint-xs}) {
+        @content;
+    }
+}
+
+// Small devices
+@mixin sm {
+    @media (min-width: #{$breakpoint-sm}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (min-width: #{$breakpoint-md}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (min-width: #{$breakpoint-lg}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl {
+    @media (min-width: #{$breakpoint-xl}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xxl {
+    @media (min-width: #{$breakpoint-xxl}) {
+        @content;
+    }
+}

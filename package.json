@@ -1,0 +1,47 @@
+{
+    "name": "Lynk",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@kevinmarrec/nuxt-pwa": "^0.17.0",
+        "@nuxt/devtools": "latest",
+        "@nuxtjs/google-fonts": "^3.1.3",
+        "@nuxtjs/i18n": "^8.0.0-rc.6",
+        "autoprefixer": "^10.4.16",
+        "nuxt": "^3.7.4",
+        "postcss": "^8.4.31",
+        "sass": "^1.69.5",
+        "tailwindcss": "^3.3.5",
+        "vue": "^3.3.8",
+        "vue-router": "^4.2.5"
+    },
+    "dependencies": {
+        "@canvasjs/stockcharts": "^1.7.33",
+        "@canvasjs/vue-stockcharts": "^1.0.2",
+        "@heroicons/vue": "^2.0.18",
+        "@nuxtjs/tailwindcss": "^6.8.0",
+        "@pinia/nuxt": "^0.4.11",
+        "@wagmi/core": "^1.4.12",
+        "@web3modal/wagmi": "^3.5.2",
+        "axios": "^1.6.2",
+        "chart.js": "^4.4.0",
+        "moment": "^2.29.4",
+        "nuxt-snackbar": "^1.0.4",
+        "pinia": "^2.1.6",
+        "sweetalert2": "^11.10.1",
+        "v3-infinite-loading": "^1.3.1",
+        "viem": "^1.21.1",
+        "vue-chartjs": "^5.2.0",
+        "vue-social-sharing": "^4.0.0-alpha4",
+        "vue3-carousel-nuxt": "^1.1.0",
+        "web3": "^4.3.0"
+    },
+    "packageManager": "yarn@1.22.19"
+}
